@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/pre-dexed/debug/classes-5301128698e230747d38df45adcea7a88bb986c9.jar" />
+    </item>
+    <item
+        jar="/Users/finnvpon/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-60b4d9f75d33c5772de1da72a414eebedda3ab5d.jar" />
+    </item>
+    <item
+        jar="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/pre-dexed/debug/classes-21d09a4014fb498d9c72e315aa418ddbea282164.jar" />
+    </item>
+    <item
+        jar="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/pre-dexed/debug/classes-897aee51a51667b34afb38968792f0a7750ee6a0.jar" />
+    </item>
+    <item
+        jar="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/pre-dexed/debug/classes-c85b0d53766e0984ef0e2d1b720d1cd6ba4287c9.jar" />
+    </item>
+    <item
+        jar="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/pre-dexed/debug/classes-8e0b4e39ed6cbb9ef8fc7406de39cbec81a8cabd.jar" />
+    </item>
+    <item
+        jar="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/pre-dexed/debug/classes-ec6e84d950092ff0b53dfec40e3ce9bc5eeabc8b.jar" />
+    </item>
+    <item
+        jar="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/pre-dexed/debug/classes-12663f389830571ab7c60356f4e9e7718be1a605.jar" />
+    </item>
+    <item
+        jar="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/libs/admob-adapter-1.0.0-1505261651-830485e.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d77f6c11b9fc8b69d8008a95b36bc809e55cb92f">
+        <dex dex="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/pre-dexed/debug/admob-adapter-1.0.0-1505261651-830485e-2b3c543004fb34fee928ae9984aadab7d59c987e.jar" />
+    </item>
+    <item
+        jar="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/pre-dexed/debug/classes-3e7e1dc35d3e9158e7f9e116f5e2b04bebadbff6.jar" />
+    </item>
+    <item
+        jar="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/pre-dexed/debug/classes-3c44b2306f0012f104b560167a4c4e1394443366.jar" />
+    </item>
+    <item
+        jar="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/pre-dexed/debug/classes-7ef5a2449534ece1f7c634a03b5fa1090eeb7570.jar" />
+    </item>
+    <item
+        jar="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/pre-dexed/debug/classes-9fe723d468b6649b739bb496ceb974f3027053c1.jar" />
+    </item>
+    <item
+        jar="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/pre-dexed/debug/classes-0a9be0fa02ef42a6520eea47d2a695eb948202a3.jar" />
+    </item>
+    <item
+        jar="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/pre-dexed/debug/classes-0d387013fe844a0f078d59f202e22f6d60c55c2c.jar" />
+    </item>
+    <item
+        jar="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-be81fa5dff7fff5f741b5f2b9062772a45d90748.jar" />
+    </item>
+    <item
+        jar="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/pre-dexed/debug/classes-f410a71e2070e08261ac2dc953bc02357b2c4ec8.jar" />
+    </item>
+    <item
+        jar="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/pre-dexed/debug/classes-c25b28ee823d17749dc0eb8a49db21d73d1be02a.jar" />
+    </item>
+    <item
+        jar="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/pre-dexed/debug/classes-0355e81d1ee9b9656ccff2820ddb24707e0b779d.jar" />
+    </item>
+    <item
+        jar="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/pre-dexed/debug/classes-96172fc551e1369a0c792824766026d1e1ddfef9.jar" />
+    </item>
+    <item
+        jar="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/pre-dexed/debug/classes-8664ae9d18a5b670e13fc40794412a7deaca8ca2.jar" />
+    </item>
+    <item
+        jar="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/pre-dexed/debug/classes-ec915d79088da51c5fb30f8b6c1df85674143941.jar" />
+    </item>
+    <item
+        jar="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/pre-dexed/debug/classes-e16fdb877b7e071036761fc7170cc0733285165d.jar" />
+    </item>
+    <item
+        jar="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/libs/vpadn-sdk-obf431-82605102-1506291043-d57fd2a.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="449f16b779701815fca202108b8aa91e9e36b059">
+        <dex dex="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/pre-dexed/debug/vpadn-sdk-obf431-82605102-1506291043-d57fd2a-b86d49975896a7413f0faaad7ce6926a185b62ac.jar" />
+    </item>
+    <item
+        jar="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/pre-dexed/debug/classes-5c1ba2678e6a491af32b5aa65921133730a6ab82.jar" />
+    </item>
+    <item
+        jar="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-a53e7ebf8941cd911a7474748bea93f81838b364.jar" />
+    </item>
+    <item
+        jar="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/pre-dexed/debug/classes-e16f679f28074a2c4215452c8106815e09b2f64a.jar" />
+    </item>
+    <item
+        jar="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.5.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="/Users/finnvpon/Documents/AndroidWork/NewAdMob/app/build/intermediates/pre-dexed/debug/classes-d1df1472617154b8836458fdcdf59e4b75ea90ad.jar" />
+    </item>
+
+</items>
