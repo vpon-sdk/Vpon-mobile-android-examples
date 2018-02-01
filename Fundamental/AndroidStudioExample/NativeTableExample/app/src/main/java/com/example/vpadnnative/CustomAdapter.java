@@ -21,6 +21,7 @@ import android.widget.Toast;
 import com.vpadn.ads.VpadnAd;
 import com.vpadn.ads.VpadnAdListener;
 import com.vpadn.ads.VpadnAdRequest;
+import com.vpadn.ads.VpadnMediaView;
 import com.vpadn.ads.VpadnNativeAd;
 import com.vpadn.ads.VpadnNativeAdsManager;
 
@@ -157,7 +158,8 @@ public class CustomAdapter extends RecyclerView.Adapter implements VpadnAdListen
         private final ImageView nativeAdIcon;
         private final TextView nativeAdTitle;
         private final TextView nativeAdBody;
-        private final ImageView nativeAdImage;
+//        private final ImageView nativeAdImage;
+        private final VpadnMediaView nativeAdMedia;
         private final RatingBar nativeAdStarRating;
         private final TextView nativeAdSocialContext;
         private final Button nativeAdCallToAction;
@@ -169,7 +171,8 @@ public class CustomAdapter extends RecyclerView.Adapter implements VpadnAdListen
             nativeAdIcon = (ImageView) nativeAdView.findViewById(R.id.nativeAdIcon);
             nativeAdTitle = (TextView) nativeAdView.findViewById(R.id.nativeAdTitle);
             nativeAdBody = (TextView) nativeAdView.findViewById(R.id.nativeAdBody);
-            nativeAdImage = (ImageView) nativeAdView.findViewById(R.id.nativeAdImage);
+//            nativeAdImage = (ImageView) nativeAdView.findViewById(R.id.nativeAdImage);
+            nativeAdMedia = (VpadnMediaView) nativeAdView.findViewById(R.id.native_ad_media);
             nativeAdStarRating = (RatingBar) nativeAdView.findViewById(R.id.nativeAdStarRating);
             nativeAdSocialContext = (TextView) nativeAdView.findViewById(R.id.nativeAdSocialContext);
             nativeAdCallToAction = (Button) nativeAdView.findViewById(R.id.nativeAdCallToAction);
@@ -191,8 +194,12 @@ public class CustomAdapter extends RecyclerView.Adapter implements VpadnAdListen
             return nativeAdBody;
         }
 
-        public ImageView getNativeAdImage() {
-            return nativeAdImage;
+//        public ImageView getNativeAdImage() {
+//            return nativeAdImage;
+//        }
+
+        public VpadnMediaView getNativeAdMedia() {
+            return nativeAdMedia;
         }
 
         public RatingBar getNativeAdStarRating() {
@@ -245,10 +252,11 @@ public class CustomAdapter extends RecyclerView.Adapter implements VpadnAdListen
         vponNativeViewHolder.getNativeAdStarRating().setNumStars(5);
         vponNativeViewHolder.getNativeAdStarRating().setRating(0);
         vponNativeViewHolder.getNativeAdIcon().setImageBitmap(null);
-        vponNativeViewHolder.getNativeAdImage().setImageBitmap(null);
+//        vponNativeViewHolder.getNativeAdImage().setImageBitmap(null);
+//        vponNativeViewHolder.getNativeAdMedia().setImageBitmap(null);
 
         if(vpadnNativeAd != null){
-            vpadnNativeAd.unregisterView();
+//            vpadnNativeAd.unregisterView();
             vpadnNativeAd.setAdListener(CustomAdapter.this);
 
             vponNativeViewHolder.getNativeAdTitle().setText(vpadnNativeAd.getAdTitle());
@@ -271,7 +279,8 @@ public class CustomAdapter extends RecyclerView.Adapter implements VpadnAdListen
             VpadnNativeAd.downloadAndDisplayImage(adIcon, nativeAdIcon);
 
             // Downloading and setting the cover image.
-            ImageView nativeAdImage = vponNativeViewHolder.getNativeAdImage();
+//            ImageView nativeAdImage = vponNativeViewHolder.getNativeAdImage();
+            VpadnMediaView nativeAdMedia = vponNativeViewHolder.getNativeAdMedia();
             VpadnNativeAd.Image adCoverImage = vpadnNativeAd.getAdCoverImage();
             int bannerWidth = adCoverImage.getWidth();
             int bannerHeight = adCoverImage.getHeight();
@@ -280,14 +289,17 @@ public class CustomAdapter extends RecyclerView.Adapter implements VpadnAdListen
             DisplayMetrics metrics = new DisplayMetrics();
             display.getMetrics(metrics);
             int screenWidth = metrics.widthPixels;
-            nativeAdImage.setLayoutParams(new LinearLayout.LayoutParams(screenWidth, (int) (((double) screenWidth / (double) bannerWidth) * bannerHeight)));
-            VpadnNativeAd.downloadAndDisplayImage(adCoverImage, nativeAdImage);
+//            nativeAdImage.setLayoutParams(new LinearLayout.LayoutParams(screenWidth, (int) (((double) screenWidth / (double) bannerWidth) * bannerHeight)));
+//            VpadnNativeAd.downloadAndDisplayImage(adCoverImage, nativeAdImage);
+            nativeAdMedia.setLayoutParams(new LinearLayout.LayoutParams(screenWidth, (int) (((double) screenWidth / (double) bannerWidth) * bannerHeight)));
+            nativeAdMedia.setNativedAd(vpadnNativeAd);
 
             // Wire up the View with the native ad, the whole nativeAdContainer will be clickable.
 //		    vpadnNativeAd.registerViewForInteraction(vponNativeViewHolder.getNativeAdView());
 
             // You can replace the above call with the following call to specify the clickable areas.
-            vpadnNativeAd.registerViewForInteraction(vponNativeViewHolder.getNativeAdView(), Arrays.asList(vponNativeViewHolder.getNativeAdCallToAction(), nativeAdImage));
+//            vpadnNativeAd.registerViewForInteraction(vponNativeViewHolder.getNativeAdView(), Arrays.asList(vponNativeViewHolder.getNativeAdCallToAction(), nativeAdImage));
+            vpadnNativeAd.registerViewForInteraction(vponNativeViewHolder.getNativeAdView(), Arrays.asList(vponNativeViewHolder.getNativeAdCallToAction(), nativeAdMedia));
         }
     }
 
@@ -301,7 +313,8 @@ public class CustomAdapter extends RecyclerView.Adapter implements VpadnAdListen
                             Log.d(LT, "nativeAdCallToAction clicked");
                             Toast.makeText(mContext, "nativeAdCallToAction Clicked", Toast.LENGTH_SHORT).show();
                             break;
-                        case R.id.nativeAdImage:
+//                        case R.id.nativeAdImage:
+                        case R.id.native_ad_media:
                             Log.d(LT, "nativeAdImage clicked");
                             Toast.makeText(mContext, "nativeAdImage Clicked", Toast.LENGTH_SHORT).show();
                             break;

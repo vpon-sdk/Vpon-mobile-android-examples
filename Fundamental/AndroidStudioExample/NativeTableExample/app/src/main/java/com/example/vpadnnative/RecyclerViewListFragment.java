@@ -19,7 +19,7 @@ import java.util.HashSet;
 public class RecyclerViewListFragment extends Fragment implements VpadnNativeAdsManager.Listener{
 
     private static final String LT = RecyclerViewListFragment.class.getSimpleName();
-    private static final String twNativeId = "your VPON native id"; //Dennis
+    private static final String twNativeId = "YOUR PLACEMENT ID";
     private static final String STATE_RECYCLERVIEW_PISITION = "RecyclerViewPosition";
     private static final String STATE_DATASET = "DataSet";
     private static final int DATASET_COUNT = 30;
@@ -76,7 +76,7 @@ public class RecyclerViewListFragment extends Fragment implements VpadnNativeAds
         // Initialize native Ad dataset, this data would usually come from vpon server.
         nativeAdsManager = new VpadnNativeAdsManager(mContext, twNativeId, 3);
         nativeAdsManager.setListener(this);
-        nativeAdsManager.loadAds();
+//        nativeAdsManager.loadAds();
         //if you want to see test ad, please open code after this line.
         nativeAdsManager.loadAds(requestTestAdvertising());
     }
@@ -208,7 +208,7 @@ public class RecyclerViewListFragment extends Fragment implements VpadnNativeAds
     private VpadnAdRequest requestTestAdvertising() {
         VpadnAdRequest adRequest = new VpadnAdRequest();
         HashSet<String> testDeviceImeiSet = new HashSet<String>();
-        testDeviceImeiSet.add("your device advertising id");
+        testDeviceImeiSet.add("YOUR GOOGLE ADVERTISING ID");
         adRequest.setTestDevices(testDeviceImeiSet);
         return adRequest;
     }

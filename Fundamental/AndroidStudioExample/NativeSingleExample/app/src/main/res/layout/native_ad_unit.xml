@@ -45,12 +45,20 @@
 
     </LinearLayout>
 
-    <ImageView
-        android:id="@+id/nativeAdImage"
+    <!--Vpon Inc. old method, but you can then use android native sdk ImageView tag-->
+    <!--<ImageView-->
+        <!--android:id="@+id/nativeAdImage"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center"-->
+        <!--android:contentDescription="Ad image" />-->
+
+    <!--Vpon Inc. New layout-->
+    <com.vpadn.ads.VpadnMediaView
+        android:id="@+id/native_ad_media"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:contentDescription="Ad image" />
+        android:gravity="center"/>
 
     <LinearLayout
         android:layout_width="match_parent"

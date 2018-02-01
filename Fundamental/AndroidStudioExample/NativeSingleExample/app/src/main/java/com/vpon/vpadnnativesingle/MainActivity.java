@@ -21,6 +21,7 @@ import android.widget.Toast;
 import com.vpadn.ads.VpadnAd;
 import com.vpadn.ads.VpadnAdListener;
 import com.vpadn.ads.VpadnAdRequest;
+import com.vpadn.ads.VpadnMediaView;
 import com.vpadn.ads.VpadnNativeAd;
 
 import java.util.Arrays;
@@ -29,7 +30,7 @@ import java.util.HashSet;
 public class MainActivity extends AppCompatActivity implements VpadnAdListener {
 
     protected final static String LT = MainActivity.class.getSimpleName();
-    private static final String NATIVEID = "key in your native ad id";
+    private static final String NATIVEID = "YOUR PLACEMENT ID"; // kelly
     private LinearLayout native_Ad_Container;
     private LinearLayout nativeAdView;
     protected VpadnNativeAd nativeAd;
@@ -46,11 +47,10 @@ public class MainActivity extends AppCompatActivity implements VpadnAdListener {
         /** Request Test Ad*/
         VpadnAdRequest adRequest = new VpadnAdRequest();
         HashSet<String> testDeviceImeiSet = new HashSet<String>();
-        testDeviceImeiSet.add("key in your device's gaid");
+        testDeviceImeiSet.add("YOUR GOOGLE ADVERTISING ID");
         adRequest.setTestDevices(testDeviceImeiSet);
 
         nativeAd.loadAd(adRequest);
-///        nativeAd.loadAd();
     }
 
     private void loadNativeUI() {
@@ -80,7 +80,8 @@ public class MainActivity extends AppCompatActivity implements VpadnAdListener {
                                 Log.e(LT, "nativeAdCallToAction");
                                 Toast.makeText(getBaseContext(), "nativeAdCallToAction Clicked", Toast.LENGTH_SHORT).show();
                                 break;
-                            case R.id.nativeAdImage:
+//                            case R.id.nativeAdImage:
+                            case R.id.native_ad_media:
                                 Log.e(LT, "nativeAdImage");
                                 Toast.makeText(getBaseContext(), "nativeAdCallToAction Clicked", Toast.LENGTH_SHORT).show();
                                 break;
@@ -122,7 +123,8 @@ public class MainActivity extends AppCompatActivity implements VpadnAdListener {
         ImageView nativeAdIcon = (ImageView) nativeAdView.findViewById(R.id.nativeAdIcon);
         TextView nativeAdTitle = (TextView) nativeAdView.findViewById(R.id.nativeAdTitle);
         TextView nativeAdBody = (TextView) nativeAdView.findViewById(R.id.nativeAdBody);
-        ImageView nativeAdImage = (ImageView) nativeAdView.findViewById(R.id.nativeAdImage);
+//        ImageView nativeAdImage = (ImageView) nativeAdView.findViewById(R.id.nativeAdImage);
+        VpadnMediaView nativeAdMedia = (VpadnMediaView) nativeAdView.findViewById(R.id.native_ad_media);
         RatingBar nativeAdStarRating = (RatingBar) nativeAdView.findViewById(R.id.nativeAdStarRating);
         TextView nativeAdSocialContext = (TextView) nativeAdView.findViewById(R.id.nativeAdSocialContext);
         Button nativeAdCallToAction = (Button) nativeAdView.findViewById(R.id.nativeAdCallToAction);
@@ -153,14 +155,18 @@ public class MainActivity extends AppCompatActivity implements VpadnAdListener {
         DisplayMetrics metrics = new DisplayMetrics();
         display.getMetrics(metrics);
         int screenWidth = metrics.widthPixels;
-        nativeAdImage.setLayoutParams(new LinearLayout.LayoutParams(screenWidth, (int) (((double) screenWidth / (double) bannerWidth) * bannerHeight)));
-        VpadnNativeAd.downloadAndDisplayImage(adCoverImage, nativeAdImage);
+//        nativeAdImage.setLayoutParams(new LinearLayout.LayoutParams(screenWidth, (int) (((double) screenWidth / (double) bannerWidth) * bannerHeight)));
+//        VpadnNativeAd.downloadAndDisplayImage(adCoverImage, nativeAdImage);
+        nativeAdMedia.setLayoutParams(new LinearLayout.LayoutParams(screenWidth, (int) (((double) screenWidth / (double) bannerWidth) * bannerHeight)));
+        nativeAdMedia.setNativedAd(nativeAd);
 
         // Wire up the View with the native ad, the whole nativeAdContainer will be clickable.
 //		nativeAd.registerViewForInteraction(nativeAdView);
 
         // You can replace the above call with the following call to specify the clickable areas.
-        nativeAd.registerViewForInteraction(nativeAdView, Arrays.asList(nativeAdCallToAction, nativeAdImage));
+//        nativeAd.registerViewForInteraction(nativeAdView, Arrays.asList(nativeAdCallToAction, nativeAdImage));
+        nativeAd.registerViewForInteraction(nativeAdView, Arrays.asList(nativeAdCallToAction, nativeAdMedia));
+
 
     }
 }
