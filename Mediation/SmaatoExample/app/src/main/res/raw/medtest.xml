@@ -1,0 +1,17 @@
+<mediation>
+    <sessionid>dc480e5b-5636-419d-b8ae-1208e228a6d6</sessionid>
+    <networks>
+        <network>
+            <name>Custom_CSM</name>
+            <priority>1</priority>
+            <width>320</width>
+            <height>50</height>
+            <classname>firm.vpon.smaato_mediation_vpon.SmaatoVpadnNative</classname>
+            <methodname>loadCustomNative</methodname>
+            <customdata>{"BANNER_ID":"8a80818257ff669e0157ffad5d3d000c"}</customdata>
+            <impression>http://www.example.com/impression</impression>
+            <clickurl>http://www.example.com/click</clickurl>
+        </network>
+    </networks>
+    <passback>http://www.example.com/passback</passback>
+</mediation>
