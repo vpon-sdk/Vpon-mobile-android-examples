@@ -22,4 +22,5 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile files('libs/vpadn-sdk-obf471-10207102-1802011415-5985d26.jar')
 }
