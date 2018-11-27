@@ -1,0 +1,55 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "map": [
+                {
+                    "source": "/Users/leelily/.gradle/caches/transforms-1/files-1.1/vpadnSDK-4.8.1.aar/af50a2a759a6720ce05019a21457d256/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,113,167,236,304,381,454,521,578",
+                        "endColumns": "57,53,68,67,76,72,66,56,52",
+                        "endOffsets": "108,162,231,299,376,449,516,573,626"
+                    },
+                    "to": {
+                        "startLines": "6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "328,386,440,509,577,654,727,794,851",
+                        "endColumns": "57,53,68,67,76,72,66,56,52",
+                        "endOffsets": "381,435,504,572,649,722,789,846,899"
+                    }
+                },
+                {
+                    "source": "/Users/leelily/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/60693fb3315d74fa79ea316462375a9f/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "232"
+                    },
+                    "to": {
+                        "startLines": "15",
+                        "startColumns": "4",
+                        "startOffsets": "904",
+                        "endLines": "18",
+                        "endColumns": "12",
+                        "endOffsets": "1081"
+                    }
+                },
+                {
+                    "source": "/Users/leelily/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/859c2a41a455f1cd8f99f4cf6c9faa49/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
+                    }
+                }
+            ]
+        }
+    ]
+}

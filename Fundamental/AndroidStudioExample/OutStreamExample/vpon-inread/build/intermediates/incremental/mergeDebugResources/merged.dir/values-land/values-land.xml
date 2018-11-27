@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_action_bar_default_height_material">48dp</dimen>
+    <dimen name="abc_action_bar_progress_bar_size">32dp</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">12dp</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">14dp</dimen>
+    <dimen name="height_complete_learn_more">60dp</dimen>
+    <dimen name="height_complete_replay">60dp</dimen>
+    <dimen name="padding_bottom_default">@dimen/space_larger</dimen>
+    <dimen name="padding_start_default">@dimen/space_larger</dimen>
+    <dimen name="size_complete_learn_more">@dimen/text_size_xxxlarge</dimen>
+    <dimen name="size_complete_replay">@dimen/text_size_xxxlarge</dimen>
+    <dimen name="size_video_more">@dimen/text_size_default</dimen>
+    <dimen name="width_complete_learn_more">60dp</dimen>
+    <dimen name="width_complete_replay">60dp</dimen>
+    <style name="Widget.Design.TabLayout" parent="Base.Widget.Design.TabLayout">
+        <item name="tabGravity">center</item>
+        <item name="tabMode">fixed</item>
+    </style>
+</resources>

@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">OutStream Test</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="news">Moscow (CNN)August is an anxious month for Russia watchers. Whether it was the 1991 coup against Soviet leader Mikhail Gorbachev, the 1998 financial crisis or the 2008 war with Georgia, August often seems to bring some unexpected confrontation or near-catastrophe.
+
+So how will Russia surprise us this August?
+Certainly, the cycle of its confrontation with the West seems to be accelerating again. Alarm bells rang in Washington on Tuesday, when Microsoft announced that a hacking operation linked to Russian military intelligence and targeting the US Senate and conservative think tanks had been foiled.
+Microsoft said it had executed a court order, giving it control of six websites created by a group known as Fancy Bear — the same group cybersecurity firms say was behind the hack of the Democratic National Committee that disrupted the 2016 US presidential elections.
+
+        Moscow (CNN)August is an anxious month for Russia watchers. Whether it was the 1991 coup against Soviet leader Mikhail Gorbachev, the 1998 financial crisis or the 2008 war with Georgia, August often seems to bring some unexpected confrontation or near-catastrophe.
+
+So how will Russia surprise us this August?
+Certainly, the cycle of its confrontation with the West seems to be accelerating again. Alarm bells rang in Washington on Tuesday, when Microsoft announced that a hacking operation linked to Russian military intelligence and targeting the US Senate and conservative think tanks had been foiled.
+Microsoft said it had executed a court order, giving it control of six websites created by a group known as Fancy Bear — the same group cybersecurity firms say was behind the hack of the Democratic National Committee that disrupted the 2016 US presidential elections.
+
+    </string>
+
+    <array name="slotIds">
+        <item></item>
+        <item>V16LA541152kkiBC69</item>
+        <item>V165e541153l8Y8721</item>
+        <item>V16ak541154hC4EBF7</item>
+        <item>V161i541155YdEC7DC</item>
+        <item>V16e2541156Vvl6B47</item>
+        <item>V16t45411578aj9B18</item>
+        <item>V16Cv541158buAE932</item>
+        <item>V16ei541159DI2D606</item>
+    </array>
+
+
+</resources>

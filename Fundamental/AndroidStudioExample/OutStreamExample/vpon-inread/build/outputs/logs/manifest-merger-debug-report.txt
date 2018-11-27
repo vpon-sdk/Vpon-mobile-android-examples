@@ -1,0 +1,157 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml:2:1-37:12
+MERGED from [com.android.support:design:27.1.1] /Users/leelily/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/60693fb3315d74fa79ea316462375a9f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/leelily/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/859c2a41a455f1cd8f99f4cf6c9faa49/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/leelily/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/b6d966f166b81fafbf7b70239cbebbf7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/leelily/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/4fab287de3309a9faad3f716fba9217c/AndroidManifest.xml:2:1-11:12
+MERGED from [com.vpon:vpadnSDK:4.8.1] /Users/leelily/.gradle/caches/transforms-1/files-1.1/vpadnSDK-4.8.1.aar/af50a2a759a6720ce05019a21457d256/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:support-v4:27.1.1] /Users/leelily/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/fe990e1d035e7c5cdbeff7bb6b90bf99/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/leelily/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/9e610fbaaa3a9f1404127304ef6067a1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/leelily/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/3984f3e604ab5c8fbb55fe8e2e574119/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/leelily/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/0e5dbb89f766c3af3e5491d30356f591/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/leelily/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/451b25026a27781cf97b395f40ee5e06/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/leelily/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/9235f36ca46587ee91ad8584e9aa97b0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] /Users/leelily/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/b2a506dc1ffc3dbe2c33cef235a60d8a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/leelily/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/7477cbcd683272ca82d4960fa5e3972e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/leelily/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/cbaeb49477b1eac0ef1ffa7ef3389e4b/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/leelily/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/a65816843479360534022e357eadb928/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/leelily/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/7219f2f7a268188c3bd5a9117ac31e1c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/leelily/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/751e10d7b6d4d40ba1098c049096b877/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/leelily/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/6eaa813da25132843c97830908e9036b/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml:2:1-37:12
+INJECTED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml:2:1-37:12
+	package
+		ADDED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml:3:5-35
+		INJECTED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml
+		INJECTED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml
+		ADDED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml:2:1-37:12
+		INJECTED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml
+		ADDED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml:2:1-37:12
+		INJECTED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml:5:5-66
+	android:name
+		ADDED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml:6:5-75
+	android:name
+		ADDED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml:6:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml:7:5-78
+	android:name
+		ADDED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml:7:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml:9:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml:10:5-78
+	android:name
+		ADDED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml:10:22-76
+application
+ADDED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml:12:5-35:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/leelily/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/4fab287de3309a9faad3f716fba9217c/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/leelily/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/4fab287de3309a9faad3f716fba9217c/AndroidManifest.xml:9:5-20
+MERGED from [com.vpon:vpadnSDK:4.8.1] /Users/leelily/.gradle/caches/transforms-1/files-1.1/vpadnSDK-4.8.1.aar/af50a2a759a6720ce05019a21457d256/AndroidManifest.xml:11:5-20
+MERGED from [com.vpon:vpadnSDK:4.8.1] /Users/leelily/.gradle/caches/transforms-1/files-1.1/vpadnSDK-4.8.1.aar/af50a2a759a6720ce05019a21457d256/AndroidManifest.xml:11:5-20
+	android:supportsRtl
+		ADDED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml:17:9-35
+	android:label
+		ADDED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml:15:9-41
+	android:roundIcon
+		ADDED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml:16:9-54
+	android:icon
+		ADDED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml:14:9-43
+	android:allowBackup
+		ADDED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml:13:9-35
+	android:theme
+		ADDED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml:18:9-40
+activity#com.vpon.vpon_inread.MainActivity
+ADDED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml:19:9-28:20
+	android:label
+		ADDED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml:21:13-45
+	android:theme
+		ADDED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml:22:13-56
+	android:name
+		ADDED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml:20:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml:23:13-27:29
+action#android.intent.action.MAIN
+ADDED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml:26:27-74
+activity#com.vpadn.widget.VpadnActivity
+ADDED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml:29:9-34:20
+	android:hardwareAccelerated
+		ADDED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml:33:13-47
+	android:configChanges
+		ADDED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml:31:13-133
+	android:theme
+		ADDED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml:32:13-61
+	android:name
+		ADDED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml:30:13-58
+uses-sdk
+INJECTED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml
+INJECTED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:27.1.1] /Users/leelily/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/60693fb3315d74fa79ea316462375a9f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /Users/leelily/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/60693fb3315d74fa79ea316462375a9f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/leelily/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/859c2a41a455f1cd8f99f4cf6c9faa49/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/leelily/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/859c2a41a455f1cd8f99f4cf6c9faa49/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/leelily/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/b6d966f166b81fafbf7b70239cbebbf7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/leelily/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/b6d966f166b81fafbf7b70239cbebbf7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/leelily/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/4fab287de3309a9faad3f716fba9217c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/leelily/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/4fab287de3309a9faad3f716fba9217c/AndroidManifest.xml:5:5-7:41
+MERGED from [com.vpon:vpadnSDK:4.8.1] /Users/leelily/.gradle/caches/transforms-1/files-1.1/vpadnSDK-4.8.1.aar/af50a2a759a6720ce05019a21457d256/AndroidManifest.xml:7:5-9:41
+MERGED from [com.vpon:vpadnSDK:4.8.1] /Users/leelily/.gradle/caches/transforms-1/files-1.1/vpadnSDK-4.8.1.aar/af50a2a759a6720ce05019a21457d256/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:27.1.1] /Users/leelily/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/fe990e1d035e7c5cdbeff7bb6b90bf99/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/leelily/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/fe990e1d035e7c5cdbeff7bb6b90bf99/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/leelily/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/9e610fbaaa3a9f1404127304ef6067a1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/leelily/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/9e610fbaaa3a9f1404127304ef6067a1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/leelily/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/3984f3e604ab5c8fbb55fe8e2e574119/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/leelily/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/3984f3e604ab5c8fbb55fe8e2e574119/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/leelily/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/0e5dbb89f766c3af3e5491d30356f591/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/leelily/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/0e5dbb89f766c3af3e5491d30356f591/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/leelily/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/451b25026a27781cf97b395f40ee5e06/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/leelily/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/451b25026a27781cf97b395f40ee5e06/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/leelily/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/9235f36ca46587ee91ad8584e9aa97b0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/leelily/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/9235f36ca46587ee91ad8584e9aa97b0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/leelily/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/b2a506dc1ffc3dbe2c33cef235a60d8a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/leelily/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/b2a506dc1ffc3dbe2c33cef235a60d8a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/leelily/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/7477cbcd683272ca82d4960fa5e3972e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/leelily/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/7477cbcd683272ca82d4960fa5e3972e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/leelily/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/cbaeb49477b1eac0ef1ffa7ef3389e4b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/leelily/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/cbaeb49477b1eac0ef1ffa7ef3389e4b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/leelily/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/a65816843479360534022e357eadb928/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/leelily/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/a65816843479360534022e357eadb928/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/leelily/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/7219f2f7a268188c3bd5a9117ac31e1c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/leelily/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/7219f2f7a268188c3bd5a9117ac31e1c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/leelily/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/751e10d7b6d4d40ba1098c049096b877/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/leelily/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/751e10d7b6d4d40ba1098c049096b877/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/leelily/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/6eaa813da25132843c97830908e9036b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/leelily/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/6eaa813da25132843c97830908e9036b/AndroidManifest.xml:20:5-44
+INJECTED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml
+INJECTED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml
+		ADDED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml
+		INJECTED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml
+		ADDED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml
+		INJECTED from /Users/leelily/Vpon/SDK intergration/Android/OutStreamExample/vpon-inread/src/main/AndroidManifest.xml
