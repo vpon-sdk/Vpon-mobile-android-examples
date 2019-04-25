@@ -89,7 +89,7 @@ public class MoPubVpadnNative extends CustomEventNative {
             testDeviceImeiSet.add("f68c6091-698a-49df-8989-3bb1649840f7");
             adRequest.setTestDevices(testDeviceImeiSet);
 			/* Request Test Ad End */
-			/* 如需抓取正式廣告可省略以上四行程式碼，同時搭配 nativeAd.loadAd(); */
+			/* 如需抓取正式廣告可省略以上四行程式碼，同時搭配 nativeAd.loadAd(adRequest); */
 
             mNativeAd.loadAd(adRequest);
         }
